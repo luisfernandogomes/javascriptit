@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    background-color: #001225;
+    color: #ffffff;}
+#spinner {
+    display: none;
+    background: green;}
+.card {
+    background: linear-gradient(135deg, rgba(255, 0, 64, 0.8), rgba(220, 0, 255, 0.8));
+    text-align: start;
+    font-size: 22px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    width: 33%;}
+.card:hover {
+    transition: transform 0.3s; /* Transição suave para hover */
+    background: #7c0073;}
+.container {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 16px;
+    padding: 8px;
+    margin: 8px;
+    background-color: blueviolet;}
+input, textarea, button {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    display: block;}
+.titulo {
+    padding: 12px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Arial", Courier, monospace;}
